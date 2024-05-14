@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script:wght@700&family=Roboto:wght@100;500&display=swap');
+
+body {
+    padding: 5% 10%;
+    /* font-size: 2rem; */
+    font-family: "Roboto", sans-serif;
+
+
+}
+
+ol {
+    /* list-style-type: decimal-leading-zero; */
+    /* list-style-type: lower-roman; */
+    list-style-type: lower-alpha;
+}
+
+ul {
+    /* list-style-type: armenian; */
+    /* list-style-type: lower-greek; */
+    list-style-type: square;
+    list-style-image: url();
+    list-style: square url();
+    
+}
+ul:hover{
+    color: red;
+    cursor: pointer;
+}
+
+::marker{
+    color:red;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    content: "only $5";
+}
+
