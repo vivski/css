@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script:wght@700&family=Roboto:wght@100;500&display=swap');
+
+body {
+    padding: 10%;
+    /* font-size: 2rem; */
+    font-family: "Roboto", sans-serif;
+
+
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: blue
+
+}
+
+a:visited{
+    color:purple
+}
+
+a:hover{
+    color: rgb(207, 225, 243);
+}
+
+a:active{
+    color:red;
+}
+
