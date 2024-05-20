@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script:wght@700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:wght@100;500&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* vai alinhar a img em bloco */
+img { 
+    display:block;
+
+}
+
+body {
+    font-family: "Nunito",sans-serif;
+    min-height: 100vh;
+}
+
+.hero {
+    border-bottom: 2px solid #000;
+    padding: 20px;
+}
+
+.profile-pic-figure {
+    width: 35%;
+
+}
+
+/* border radius para arredondar a foto */
+.profile-pic-figure img {
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5% double gray;
+    border-radius: 50%;
+}
+
+/* ........................ */
+.example {
+    margin-top: 1rem;
+    padding-left: 20px;
+    border: 1px solid red;
+
+}
+
+/* this means it is 25% of the container's TAMANHO */
+.example img {
+    width: 25%;
+    height: auto;
+
+}
+
+/* ............................... */
+
+
