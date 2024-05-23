@@ -19,26 +19,31 @@
     --RADIAL-COLOR: whitesmoke;
     --DARK-COLOR:#000;
 
+    /*SQUARE*/
+    --SQUARE-BGCOLOR: papayawhip;
+    
+    
+    
 }
 
 body {
     font-family: "Nunito",sans-serif;
     min-height: 100vh;
-
+    
     background-color: var(--BGCOLOR);
     background-color: #475569;
     background-image: radial-gradient(whitesmoke,#475569);
     display: flex;
     flex-direction: column;
-
+    
 }
 header,main,nav,footer{
     display:grid;
     place-content:center;
     grid-template-columns: 100%;
     text-align: center;
-
-
+    
+    
 }
 
 header,footer{
@@ -57,84 +62,33 @@ nav{
     color:#000;
     padding: 0.5rem;
     border-bottom: 2px solid #000;
-
+    
 }
 
 main{
     flex-grow:1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: row wrap;
+    gap: min(4vw,15px);
+    
 }
+
 
 footer{
     bottom: 0;
 }
 
-/* /SMALL/ */
-
-/* @media screen and (min-width:576px){
-    body{
-        background-color: green;
-        background-image: radial-gradient(whitesmoke,green);
-    }
-    nav{
-        display: none;
-
-    }
-} */
-
-/* MEDIUM */
-@media screen and (min-width:768px){
-    body{
-        background-color: green;
-        background-image: radial-gradient(whitesmoke,gold);
-    }
-}
-
-/* LARGE */
-@media screen and (min-width:992px){
-    body{
-        background-color: firebrick;
-        background-image: radial-gradient(whitesmoke,firebrick);
-    }
-}
-
-/* LARGE */
-@media screen and (min-width:1200px){
-    body{
-        background-color: firebrick;
-        background-image: radial-gradient(whitesmoke,rebeccapurple);
-    }
-}
-
-/* MOBILE DEVICE LANDSCAPE */
-@media screen and (max-height:425px) and (min-aspect-ratio: 7/4){
-    body{
-        background-color: dodgerblue;
-        background-image: radial-gradient(whitesmoke,dodgerblue);
-    }
-    h1,h2{
-        font-size: 1.5rem;
-    }
-    nav{
-        display: none;
-    }
+.square{
+    background-color: yellowgreen;
+    width: 20px;
+    display: grid;
+    
+    place-content: center;
+    font-size: 10px;
 }
 
 
-/* min-width means 'start from' */
-/* @media screen and (min-width: 481px){
 
-  
-} */
 
-/* posição horizontal */
-/* @media screen and (orientation: landscape){
-  
-}
-
-@media screen and (min-aspect-ratio: 7/4){
-  
-} */
-
-/* markdown all in one */
-/* control shift in the letter v */
 
