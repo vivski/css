@@ -69,6 +69,11 @@ nav a:hover, nav a:focus{
     color: hsla(0, 0%, 20%, 0.6)
 }
 
+nav a:active{
+    color: red;
+}
+
+
 main{
     flex-grow:1;
     display: flex;
@@ -95,6 +100,10 @@ footer{
     align-items: center;
 }
 
+.card:target{
+    border:2px solid rebeccapurple;
+}
+
 .card figure {
     display:flex;
     flex-flow: column nowrap;
@@ -107,6 +116,14 @@ footer{
 
 }
 
+.card img:not([alt]){
+    border:10px solid red;
+}
+
+.card:nth-child(2){
+    background-color: papayawhip ;
+}
+
 .card figcaption {
    font-weight: bolder; 
    font-size: 2rem ;
@@ -115,7 +132,9 @@ footer{
    
 }
 
-
+.card figcaption::after{
+    content:'hello';
+}
 
 /* /SMALL/ */
 
