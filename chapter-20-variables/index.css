@@ -7,10 +7,18 @@
     box-sizing: border-box;
 }
 
-/*:root*/
+/*:root | VARIABLES | */
 :root{
+    /*FONT*/
+    --FONT: "Nunito",sans-serif;
+    --FONTS: 1.5rem;
+
     /* COLOR */
-    --BGCOLOR: #475569
+    --BGCOLOR: #475569;
+    --ALT-BGCOLOR: #1E293B;
+    --RADIAL-COLOR: whitesmoke;
+    --DARK-COLOR:#000;
+
 }
 
 body {
@@ -36,7 +44,8 @@ header,main,nav,footer{
 header,footer{
     position:sticky;
     background-color: #1E293B;
-    color: whitesmoke;
+    /* color: whitesmoke; */
+    color: var(--ALT-BGCOLOR);
 }
 
 header {
