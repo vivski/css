@@ -136,6 +136,39 @@ footer{
     content:'hello';
 }
 
+.card figcaption::before{
+    content: 'highly recommended';
+    display: block;
+}
+
+.card p::before{
+    content: open-quote;
+}
+
+.card p{
+    position: relative;
+}
+
+.card p::after{
+    content: close-quote;
+    font-size: 3em;
+    position: absolute;
+    top: -0.25em;
+    left: -0.5;
+}
+
+.card p::after{
+    content: close-quote;
+    font-size: 3em;
+    position: absolute;
+    top: -0.25em;
+    right: -0.5em;
+}
+
+.card figcaption::first-letter{
+    font-size: 3rem;
+}
+
 /* /SMALL/ */
 
 @media screen and (min-width:576px){
