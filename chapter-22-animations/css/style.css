@@ -39,28 +39,58 @@ div {
 
 div:first-child{
     background-color: dodgerblue;
+    /* everything below is transformation */
     /* transform: translateX(-50%); */
     /* transform: rotateX(180deg); */
     /* transform:scale(120%); */
-    transform: skewX(-10deg);
+    /* transform: skewX(-10deg); */
+    /* everything above is transformation */
+
     
 }
 
 div:nth-child(2){
     background-color: yellow;
+    /* everything below is transformation */
     /* transform: translateY(-2rem); */
     /* transform: rotateY(180deg); */
     /* transform: scaleY(120%); */
-    transform: skewY(10deg);
+    /* transform: skewY(10deg); */
+    /* everything above is transformation */
     
 }
 
 div:last-child{
     background-color: limegreen;
+    /* everything below is transformation */
     /* transform:translate(100%, -5rem); */
     /* transform: rotateZ(135deg); */
     /* transform: scale(50%,50%); */
-    transform: skew(-10deg,-10deg);
+    /* transform: skew(-10deg,-10deg); */
+    /* everything above is transformation */
+
 }
+
+/* TRANSITIONS */
+/* tranforma a cor da div em midnightblue em 2s */
+/* vai rodar a div em 180deg com a propriedade transform */
+div:hover{
+    background: midnightblue;
+    /* transition-property: background-color, transform;
+    transition-duration: 2s, 3s;
+    transition-delay: 0.5s; */
+    /* a linha abaixo tem a mesma função das 3 linhas acima
+    transition:all 2s 0.5s; */
+
+    /* transition-timing-function: linear; */
+    transition: all 2s linear 0.5s;
+}
+
+div:last-child:hover{
+    transform:rotate(180deg);
+
+}
+
+/* ANIMATIONS */
 
 
