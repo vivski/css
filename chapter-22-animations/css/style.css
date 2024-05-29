@@ -35,17 +35,32 @@ div {
     place-content: center;
 }
 
+/* PROPRIEDADES PARA TRANSFORMATION */
+
 div:first-child{
     background-color: dodgerblue;
-
+    /* transform: translateX(-50%); */
+    /* transform: rotateX(180deg); */
+    /* transform:scale(120%); */
+    transform: skewX(-10deg);
+    
 }
 
 div:nth-child(2){
     background-color: yellow;
+    /* transform: translateY(-2rem); */
+    /* transform: rotateY(180deg); */
+    /* transform: scaleY(120%); */
+    transform: skewY(10deg);
     
 }
 
 div:last-child{
     background-color: limegreen;
-    
+    /* transform:translate(100%, -5rem); */
+    /* transform: rotateZ(135deg); */
+    /* transform: scale(50%,50%); */
+    transform: skew(-10deg,-10deg);
 }
+
+
