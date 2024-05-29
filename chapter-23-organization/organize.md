@@ -4,6 +4,5 @@
 
 -- use comentarios para criar headers
 
--- classificar propriedades em ordem alfabeticas.
+-- classificar propriedades em ordem alfabetica.
 
--- 
