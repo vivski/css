@@ -6,3 +6,6 @@
 
 -- classificar propriedades em ordem alfabetica.
 
+-- para projetos maiores siga uma convenção metodologica. - BEM - block, Element, Modifier.
+
+-- 
