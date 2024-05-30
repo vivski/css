@@ -36,5 +36,18 @@ body {
 
 }
 
+/*MODIFIERS*/
+/*para incrementar mudanças de estilos*/
+/*blocos com modificadores*/
+.btn--secondary{
+    background-color: yellow;
+}
 
+.btn--lean{
+    transform:skewX(-10deg)
+}
+
+.btn--border-lg{
+    border:5px solid whitesmoke;
+}
 
