@@ -29,5 +29,8 @@ textarea {
     --FF-HEADINGS: "Fugaz One", cursive;
     --FS: clamp(1rem, 2.2vh, 1.5rem);
      /* CORES */
-     --BGCOLOR-FADE: rgb(252, 220, 160);
+    --BGCOLOR-FADE: rgb(252, 220, 160);
+    --BGCOLOR: orange;
+    --BGIMAGE: linear-gradient(to bottom, var(--BGCOLOR), var(--BGCOLOR-FADE));
+    --BODY-BGCOLOR: #FFF;
 }
