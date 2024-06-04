@@ -33,4 +33,5 @@ textarea {
     --BGCOLOR: orange;
     --BGIMAGE: linear-gradient(to bottom, var(--BGCOLOR), var(--BGCOLOR-FADE));
     --BODY-BGCOLOR: #FFF;
+    --BORDER-COLOR: #333;
 }
