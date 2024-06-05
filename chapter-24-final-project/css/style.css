@@ -30,10 +30,37 @@ textarea {
     --FS: clamp(1rem, 2.2vh, 1.5rem);
      /* CORES */
     --BGCOLOR-FADE: rgb(252, 220, 160);
-    --BGCOLOR: orange;
-    
-    --BGIMAGE: linear-gradient(to bottom, var(--BGCOLOR), var(--BGCOLOR-FADE));
-    
+    --BGCOLOR: orange;    
+    --BGIMAGE: linear-gradient(to bottom, var(--BGCOLOR), var(--BGCOLOR-FADE));    
     --BODY-BGCOLOR: #FFF;
     --BORDER-COLOR: #333;
+
+   /* BORDERS */
+   --BORDERS: 1px solid var(--BORDER-COLOR);
+   --BORDER-RADIUS: 15px;
+
+   /* STANDARD PADDING */
+   --PADDING-TB: 0.25em;
+   --PADDING-SIDE: 2.5%;
+
+   /* STANDARD MARGIN */
+   --MARGIN: clamp(1em, 2.5vh, 1.5em) 0;
+}
+
+@media (prefers-color-scheme: dark) {
+   :root {
+       --BGCOLOR-FADE: gray;
+       --BGCOLOR: #000;
+       --BODY-BGCOLOR: #333;
+       --BORDER-COLOR: whitesmoke;
+       --BUTTON-COLOR: #000;
+       --FONT-COLOR: whitesmoke;
+       --HEADER-COLOR: whitesmoke;
+       --HERO-COLOR: #333;
+       --HIGHLIGHT-COLOR: whitesmoke;
+       --LINK-ACTIVE: rgb(252, 200, 103);
+       --LINK-COLOR: whitesmoke;
+       --LINK-HOVER: orange;
+       --NAV-BGCOLOR: rgb(20, 20, 20);
+   }
 }
