@@ -60,9 +60,7 @@ textarea {
        --HIGHLIGHT-COLOR: whitesmoke;
        --LINK-ACTIVE: rgb(252, 200, 103);
        --LINK-COLOR: whitesmoke;
-       
        --LINK-HOVER: orange;
-
        --NAV-BGCOLOR: rgb(20, 20, 20);
    }
 }
